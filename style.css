@@ -1,0 +1,48 @@
+/*
+Theme Name: MayeCreate Child
+Theme URI: http://www.mayecreate.com/
+description: MayeCreate Design Child Theme
+Author: Tyler Ernst, Rebecca Thomas, Creative Director Monica Pitts
+Author URI: http://www.mayecreate.com/
+Template: mayecreate-theme-22
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* NOTE TO THE THEME DEV: DONT FORGET TO CHANGE THE SCREENSHOT.PNG TO A SCREENSHOT OF THE CLIENT SITE */
+
+        /* Small devices (tablets, 768px and up) */
+		@media (min-width: 768px) {
+            
+        }
+
+            /* Small devices (tablets, 992px and up) */
+            @media (min-width: 992px) {
+
+            }
+
+                /* Small devices (tablets, 1024px and up) */
+                @media (min-width: 1024px) {
+
+                }
+
+                    /* Small devices (tablets, 1200px and up) */
+                    @media (min-width: 1200px) {
+
+                    }
+
+                        /* Small devices (tablets, 1366px and up) */
+                        @media (min-width: 1366px) {
+
+                        }
+
+                            /* Small devices (tablets, 1500px and up) */
+                            @media (min-width: 1500px) {
+
+                            }
+
+                                /* Small devices (tablets, 1700px and up) */
+                                @media (min-width: 1700px) {
+
+                                }
