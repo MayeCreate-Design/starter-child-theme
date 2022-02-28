@@ -7,7 +7,7 @@ get_header(); ?>
 		
 
         <div class="row">
-			<div class="col-md-8 main left">
+			<div class="col-md-12">
 		
 				<?php $page_slug = $post->post_name; ?>
 				<?php // args
@@ -41,10 +41,6 @@ get_header(); ?>
         
         
 			</div><!-- / maincolumn -->
-        	
-            <div class="col-md-4 sidebar">
-            	<?php get_template_part('partials/sidebar','blog'); ?>	
-            </div><!-- / sidebar -->
         
     	</div><!-- / row -->
 	</div><!-- / hfeed site container -->
