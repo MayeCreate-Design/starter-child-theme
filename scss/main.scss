@@ -1,0 +1,44 @@
+@use '../../mayecreate-theme-22/scss/vars';
+@use 'child_vars';
+
+/* NOTE TO THE THEME DEV: DONT FORGET TO CHANGE THE SCREENSHOT.PNG TO A SCREENSHOT OF THE CLIENT SITE */
+
+    /* Small devices (576px and up). This is anything labeled "sm" in bootstrap. */
+    @media (min-width: 576px) {
+        
+    } 
+
+        /* Medium devices (tablets, 768px and up). This is anything labeled "md" in bootstrap. */
+		@media (min-width: 768px) {
+            
+        }
+
+            /* Large devices (desktops, 992px and up). This is anything labeled "lg" in bootstrap. */
+            @media (min-width: 992px) {
+
+            }
+
+                /* Larger-er devices (desktops, 1024px and up). This is NOT a breakpoint in bootstrap. */
+                @media (min-width: 1024px) {
+
+                }
+
+                    /* Xtra-Large devices (desktops, 1200px and up). This is anything labeled "xl" in bootstrap. */
+                    @media (min-width: 1200px) {
+
+                    }
+
+                        /* Xtra-Xtra-Large devices (desktops, 1400px and up). This is anything labeled "xxl" in bootstrap. */
+                        @media (min-width: 1400px) {
+
+                        }
+
+                            /* Specialized Xtra-Xtra-Xtra-Large devices (desktops, 1550px and up). This is NOT a breakpoint in bootstrap. */
+                            @media (min-width: 1500px) {
+
+                            }
+
+                                /* Specialized Xtra-Xtra-Xtra-Xtra-Large devices (desktops, 1700px and up). This is NOT a breakpoint in bootstrap. */
+                                @media (min-width: 1700px) {
+
+                                }

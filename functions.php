@@ -13,7 +13,7 @@ function mayecreate_script_fix()
 add_action( 'wp_enqueue_scripts', 'mc_enqueue_child_theme_styles', PHP_INT_MAX);
 function mc_enqueue_child_theme_styles() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri().'/css/main.min.css' );
-    wp_enqueue_style( 'child-style', get_stylesheet_uri(), array('parent-style')  );
+    wp_enqueue_style( 'child-style', get_stylesheet_directory_uri().'/css/main.min.css', array('parent-style')  );
 }
 
 
@@ -21,7 +21,6 @@ function mc_enqueue_child_theme_styles() {
 function build_taxonomies() {
    register_taxonomy( 'projectcategory', 'menu', array( 'hierarchical' => true, 'label' => 'Categories', 'query_var' => true, 'rewrite' => true, 'show_in_rest' => true ) );
 }
-add_action( 'init', 'build_taxonomies', 0 );
 
 function mayecreate_create_post_type_child() {
 	
