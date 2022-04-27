@@ -16,6 +16,11 @@ function mc_enqueue_child_theme_styles() {
     wp_enqueue_style( 'child-style', get_stylesheet_directory_uri().'/css/main.min.css', array('parent-style')  );
 }
 
+function parent_editor_style_setup() {
+	// Add support for editor styles.
+	add_editor_style(  get_template_directory_uri().'/css/main.min.css' );
+}
+add_action( 'after_setup_theme', 'parent_editor_style_setup' );
 
 /* NOTE: These functions are functions that don't need to be in the parent theme because not every site will have them. */
 function build_taxonomies() {
