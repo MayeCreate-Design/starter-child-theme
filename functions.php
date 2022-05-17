@@ -26,7 +26,7 @@ add_action( 'after_setup_theme', 'parent_editor_style_setup' );
 function build_taxonomies() {
    register_taxonomy( 'projectcategory', 'menu', array( 'hierarchical' => true, 'label' => 'Categories', 'query_var' => true, 'rewrite' => true, 'show_in_rest' => true ) );
 }
-
+add_action( 'init', 'build_taxonomies', 0 );
 function mayecreate_create_post_type_child() {
 	
 	// Register the "Project" custom post type if this is not needed, DELETE ME.
