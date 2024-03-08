@@ -6,7 +6,7 @@ function mayecreate_script_fix()
 {
     wp_dequeue_script('mayecreatejs');
     wp_dequeue_script('mc-block-editor-script');
-    wp_enqueue_script('child_theme_mayecreatejs', get_stylesheet_directory_uri().'/js/mayecreate_scripts.js', array('jquery'));
+    wp_enqueue_script('child_theme_mayecreatejs', get_stylesheet_directory_uri().'/js/mayecreate_scripts.js', array('jquery'), '1.0.0', array('in_footer' => true,'strategy'  => 'async',));
 }
 function jsforwpblocks_editor_scripts_child() {
 	
